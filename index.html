@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
 </head>
+<style>
+    table{
+        border-collapse: collapse;
+        width: 100px;
+        border: 1px solid black;
+    }
+    th,td{
+        padding: 10px;
+        border: 1px solid  black;
+    }
+    th{
+        background-color: yellowgreen;
+        color: white;
+
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+    }
+    td:nth-child(1){
+        text-align: center;
+    }
+    td:nth-child(2){
+        text-transform: uppercase;
+    }
+</style>
 <body>
     <table border="1" style="width: 90%;height: 300px; border-collapse: collapse;" >
         <tr>
